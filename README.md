@@ -1,2 +1,4 @@
-# guotong_origin_master
-ga_web_react
+# How to Run
+
+1. `yarn`
+2. `npm start`

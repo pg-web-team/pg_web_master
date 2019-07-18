@@ -1,0 +1,11 @@
+@mixin primary {
+  color: #003bae;
+}
+
+@mixin danger {
+  color: #fc5442;
+}
+
+.danger {
+  color: #fc5442;
+}

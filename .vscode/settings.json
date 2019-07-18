@@ -1,0 +1,25 @@
+{
+  "eslint.enable": true,
+  "jshint.enable": false,
+  "tslint.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }, {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "css.validate": true,
+  "scss.validate": true,
+  "stylelint.enable": true,
+
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "files.autoGuessEncoding": false,
+  "editor.formatOnPaste": true
+}

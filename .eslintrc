@@ -1,0 +1,45 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "module": true,
+      "jsx": true
+    },
+    "useJSXTextNode": true,
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true,
+    "jest/globals": true
+  },
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "jest", "prettier"],
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": ["warn", {
+      "extensions": [".jsx", ".tsx"]
+    }],
+    "@typescript-eslint/prefer-interface": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "no-alert": "warn",
+    "no-console": "warn",
+    "jsx-a11y/href-no-hash": "off",
+    "no-param-reassign": "warn",
+
+    "prettier/prettier": [
+      "error", {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "es5"
+      }
+    ]
+  }
+}

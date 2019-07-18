@@ -1,0 +1,5 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+
+export const REQUEST_SURVEY_LIST = 'REQUEST_SURVEY_LIST'
+export const RECEVIE_SURVEY_LIST = 'RECEVIE_SURVEY_LIST'
