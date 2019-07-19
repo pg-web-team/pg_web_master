@@ -9,7 +9,7 @@ const requestTableList = (request: GetTableListRequest) => {
   const url = `http://localhost:3333/table?tableId=${request.tableId}`
   return http.get<Table[]>(url)
 }
-
+// qqqqqq
 export default {
   requestTableList,
 }
