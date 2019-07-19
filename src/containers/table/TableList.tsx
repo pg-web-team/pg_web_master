@@ -23,7 +23,7 @@ class TableList extends React.Component<Props, {}> {
     const { isLoading, tableList } = this.props
     return (
       <div>
-        {/* <span>{JSON.stringify(tableList)}</span> */}
+        <span>{JSON.stringify(tableList)}</span>
         <table>
           {
             tableList.map(tab => {

@@ -7,7 +7,6 @@ import {
   REQUEST_TABLE_LIST,
   RECEVIE_TABLE_LIST,
 } from '../../constants/ActionTypes'
-import table from 'apis/table';
 
 interface RequestTableListAction {
   type: typeof REQUEST_TABLE_LIST
