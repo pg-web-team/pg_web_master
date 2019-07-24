@@ -6,6 +6,8 @@ import { AppState } from '../../store/Store'
 import TableState from '../../store/table/tableState'
 import { actionCreator } from '../../store/table'
 
+
+
 type Props = TableState &
   typeof actionCreator &
   RouteComponentProps<{ id: string }>
@@ -18,7 +20,6 @@ class TableList extends React.Component<Props, {}> {
     requestTableList(3)
     // const { tempList} =
   }
-
   public render() {
     const { isLoading, tableList } = this.props
     return (
