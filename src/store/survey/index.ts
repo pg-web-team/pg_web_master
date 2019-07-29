@@ -36,7 +36,7 @@ export const actionCreator = {
     })
 
     surveyApi
-      .requestSurveyList({ surveyName, startIndex: '1', pageSize: '10' })
+      .requestSurveyList({ surveyName, startIndex: '', pageSize: '10' })
       .then(res => {
         dispatch({
           type: RECEVIE_SURVEY_LIST,
